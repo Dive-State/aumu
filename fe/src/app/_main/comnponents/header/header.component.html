@@ -1,0 +1,22 @@
+<div class="logo">
+</div>
+
+<ng-container *ngIf="authService.isAuth">
+  <nav class="navigation">
+  </nav>
+  <div class="buttons">
+    <a [routerLink]="appNav.profileNav.yourMusic">Your Music</a>
+    <a [routerLink]="appNav.profileNav.main">Profile</a>
+    <button (click)="logoutAction()">Logout</button>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="!authService.isAuth">
+  <div class="buttons">
+    <a [routerLink]="appNav.authNav.login">Login</a>
+    <a [routerLink]="appNav.authNav.register">Registration</a>
+  </div>
+</ng-container>
+
+
+
