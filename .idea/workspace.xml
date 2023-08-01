@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f046c571-ad5f-4379-933b-4826ddf60286" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/.idea/be-nestjs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/app.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/auth/authenticated.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/auth/local.auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/auth/local.strategy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/auth/session.serializer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/users/users.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/users/users.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/users/users.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/src/users/users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be-nestjs/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/_core/components/base.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/_core/core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/_core/core.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/_main/comnponents/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/_main/comnponents/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/auth/auth.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/auth/auth.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/auth/components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/auth/components/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/auth/components/signin/signin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/auth/components/signin/signin.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/profile/components/your-music/your-music.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/profile/components/your-music/your-music.component.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TOBCgXa8i249FCd0ATgf5HjzLB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/github/Dive-state/aumu",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\Dive-state\aumu" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f046c571-ad5f-4379-933b-4826ddf60286" name="Changes" comment="" />
+      <created>1690904121159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690904121159</updated>
+      <workItem from="1690904122804" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

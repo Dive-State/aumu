@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {AuthService} from "../../../auth/services/auth.service";
 import {appNav} from "../../../app.navigation";
-import {BaseComponent} from "../../../_core/components/base.component";
+import {BaseComponent} from "../../../_core/components/base/base.component";
 import {takeUntil} from "rxjs";
 import {Router} from "@angular/router";
 

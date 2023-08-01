@@ -5,6 +5,7 @@ import {profileRoot} from "./profile/profile.navigation";
 import {AuthGuard} from "./auth/guards/auth.guard";
 import {appNav} from "./app.navigation";
 import {NotFoundComponent} from "./_main/comnponents/not-found/not-found.component";
+import {LoginComponent} from "./auth/components/login/login.component";
 
 const routes: Routes = [
   {
@@ -14,7 +15,7 @@ const routes: Routes = [
   {
     path: profileRoot,
     loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule),
-    canActivate: [ AuthGuard ]
+    // canActivate: [ AuthGuard ]
   },
   {
     path: '',

@@ -5,7 +5,7 @@ import {ILogin} from "../../interfaces/ILogin";
 import {AuthService} from "../../services/auth.service";
 import {Router} from "@angular/router";
 import {take, takeUntil} from "rxjs";
-import {BaseComponent} from "../../../_core/components/base.component";
+import {BaseComponent} from "../../../_core/components/base/base.component";
 import {appNav} from "../../../app.navigation";
 
 @Component({

@@ -3,7 +3,7 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {IRegister} from "../../interfaces/IRegister";
 import {AuthService} from "../../services/auth.service";
 import {Router} from "@angular/router";
-import {BaseComponent} from "../../../_core/components/base.component";
+import {BaseComponent} from "../../../_core/components/base/base.component";
 import {takeUntil} from "rxjs";
 import {authNav} from "../../auth.navigation";
 import {appNav} from "../../../app.navigation";

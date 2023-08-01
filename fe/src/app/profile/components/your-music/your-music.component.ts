@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {BaseComponent} from "../../../_core/components/base.component";
+import {BaseComponent} from "../../../_core/components/base/base.component";
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {IUploadTrack} from "../../interfaces/IUploadTrack";
 
