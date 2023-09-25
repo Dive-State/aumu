@@ -1,17 +1,17 @@
-import {Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
-import {LoginModel} from "../../models/login.model";
 import {ILogin} from "../../interfaces/ILogin";
 import {AuthService} from "../../services/auth.service";
 import {Router} from "@angular/router";
-import {take, takeUntil} from "rxjs";
+import {takeUntil} from "rxjs";
 import {BaseComponent} from "../../../_core/components/base/base.component";
 import {appNav} from "../../../app.navigation";
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+  styleUrls: ['./login.component.scss'],
+  changeDetection:ChangeDetectionStrategy.Default,
 })
 export class LoginComponent extends BaseComponent implements OnInit {
   hide = true;
@@ -22,6 +22,7 @@ export class LoginComponent extends BaseComponent implements OnInit {
   constructor(
     private authService: AuthService,
     private router: Router,
+    private cdf: ChangeDetectorRef,
   ) {
     super();
   }
@@ -38,7 +39,10 @@ export class LoginComponent extends BaseComponent implements OnInit {
       this.authService.login(this.loginForm.value)
         .pipe(takeUntil(this.destroy$))
         .subscribe((result) => {
-          this.router.navigateByUrl(appNav.profileNav.main);
+            const todo = result;
+            this.cdf.markForCheck();
+            this.cdf.detectChanges();
+          // this.router.navigateByUrl(appNav.profileNav.main);
         })
     }
   }

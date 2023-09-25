@@ -11,7 +11,7 @@ import {environment} from "../../../environments/environment";
 })
 export class AuthService {
   isAuth: boolean;
-  private authUrl = `${environment.apiUrl}/auth'`
+  private authUrl = `${environment.apiUrl}/auth`
 
   constructor(
     private http: HttpClient,

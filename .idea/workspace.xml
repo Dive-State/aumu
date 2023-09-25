@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f046c571-ad5f-4379-933b-4826ddf60286" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be-nestjs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/be-nestjs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be-nestjs/src/users/users.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/be-nestjs/src/users/users.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/auth/components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/auth/components/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/src/app/auth/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/app/auth/services/auth.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fe/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fe/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +36,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/github/Dive-state/aumu",
+    "last_opened_file_path": "D:/github/rock-school/angular",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\github\\Dive-state\\aumu\\fe\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -48,7 +57,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690904121159</updated>
-      <workItem from="1690904122804" duration="359000" />
+      <workItem from="1690904122804" duration="509000" />
+      <workItem from="1691241332834" duration="2090000" />
+      <workItem from="1691761926140" duration="2647000" />
+      <workItem from="1692096054820" duration="49000" />
+      <workItem from="1692096345701" duration="138000" />
+      <workItem from="1692096518364" duration="702000" />
+      <workItem from="1692097559015" duration="4521000" />
+      <workItem from="1692202839964" duration="2415000" />
     </task>
     <servers />
   </component>

@@ -6,8 +6,14 @@ import {AuthGuard} from "./auth/guards/auth.guard";
 import {appNav} from "./app.navigation";
 import {NotFoundComponent} from "./_main/comnponents/not-found/not-found.component";
 import {LoginComponent} from "./auth/components/login/login.component";
+import {AppComponent} from "./app.component";
 
 const routes: Routes = [
+  {
+    path: '',
+    redirectTo: appNav.profileNav.main,
+    pathMatch: 'full'
+  },
   {
     path: authRoot,
     loadChildren: () => import('./auth/auth.module').then((m) => m.AuthModule),
@@ -18,9 +24,8 @@ const routes: Routes = [
     // canActivate: [ AuthGuard ]
   },
   {
-    path: '',
-    redirectTo: appNav.profileNav.main,
-    pathMatch: 'full'
+    path: 'home/:id',
+    component: AppComponent,
   },
   {
     path: '**',

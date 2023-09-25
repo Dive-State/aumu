@@ -25,6 +25,9 @@ import {CoreModule} from "./_core/core.module";
     ReactiveFormsModule,
     BrowserAnimationsModule
   ],
+  exports: [
+
+  ],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
